@@ -8,11 +8,12 @@ This repository implements the PBSM framework as described in the PhD chapter. I
 - Mininet installed (`sudo apt install mininet`)
 
 - ## Setup
-1. **Clone the repository**: https://github.com/firas1987/PBSM
-   cd PBSM
-   pip install -r requirements.txt
+1. **Clone the repository**:
+   - git clone https://github.com/firas1987/PBSM
+   - cd PBSM
+   - pip install -r requirements.txt
    
-2. **Configure OpenDaylight**:
+3. **Configure OpenDaylight**:
 - Start five ODL instances on ports 6653/8181 and 6654/8182 and so on
 - Enable required features: install odl-restconf odl-openflowplugin-flow-services odl-mdsal-apidocs
   
